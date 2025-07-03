@@ -14,11 +14,11 @@ We need to distinguish between low-risk and high-risk customers requesting a cre
 
 ## Target Variable
 
-`target` =  
+'target' =  
 - 1: if the customer had **x ≥ 34 days** in the first 77 days after the loan started (where x is a delay).  
 - 0: otherwise.
 
-## ⚙️ Model Selection
+## Model Selection
 
 I selected **logistic regression** as the baseline model due to:
 - Its interpretability and computational efficiency.
